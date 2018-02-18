@@ -1,5 +1,5 @@
-var App = artifacts.require('./App.sol')
+var Jumpstart = artifacts.require('./jumpStart.sol')
 
 module.exports = function (deployer) {
-  deployer.deploy(Project)
+  deployer.deploy(jumpStart)
 }

@@ -5,6 +5,7 @@ import "./Project.sol";
 contract Jumpstart is AragonApp {
   bytes32 constant public ROLE_DIRECTOR = keccak256("ROLE_DIRECTOR");
   bytes32 constant public ROLE_PUBLIC = keccak256("ROLE_PUBLIC");
+  Project[] projects;
 
   function () payable {
     revert(); //default function will revert 
